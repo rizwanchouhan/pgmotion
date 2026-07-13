@@ -1,12 +1,14 @@
 # Gravity-Aware World-Coordinate Human Motion Estimation via Perceptual-Gravity Reference Frames
 
-<img style="max-width:100%;" src="resources/framework.png" alt="Framework Overview">
+<img style="max-width: 100%;" src="https://github.com/rizwanchouhan/pgmotion/blob/main/resources/wax.png" alt="pgmotion Overview">
 
 # 📌 Overview
 
-This repository contains the official implementation of **Gravity-Aware World-Coordinate Human Motion Estimation via Perceptual-Gravity Reference Frames**.
+This repository contains the official implementation of Gravity-Aware World-Coordinate Human Motion Estimation via Perceptual-Gravity Reference Frames.
 
-Our method introduces a **Perceptual-Gravity (PG) reference frame**, a canonical coordinate system constructed from two observable cues in monocular videos: the gravity direction and the camera optical axis. Instead of directly estimating motion in camera or world coordinates, the proposed framework first predicts human motion in the PG frame and then recovers world-coordinate trajectories using inter-frame camera motion. This formulation significantly reduces rotational ambiguity and improves both pose and trajectory estimation.
+Our method introduces a Perceptual-Gravity (PG) reference frame, a canonical coordinate system constructed from two observable cues in monocular videos: the gravity direction and the camera optical axis. Instead of directly estimating motion in camera or world coordinates, the proposed framework first predicts human motion in the PG frame and then recovers world-coordinate trajectories using inter-frame camera motion. This formulation significantly reduces rotational ambiguity and improves both pose and trajectory estimation.
+
+<img style="max-width: 100%;" src="https://github.com/rizwanchouhan/pgmotion/blob/main/resources/overview.jpg" alt="EMOPOI Overview">
 
 ---
 
@@ -179,6 +181,6 @@ If you find this work useful, please cite:
 
 For questions or collaborations, please contact:
 
-**Rizwan Abbas**
+Rizwan Abbas
 
 Email: your_email@sjtu.edu.cn
