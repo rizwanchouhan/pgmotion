@@ -1,4 +1,4 @@
-# Gravity-Aware World-Coordinate Human Motion Estimation via Perceptual-Gravity Reference Frames
+# Perceptual-Gravity Reference Frames for Globally Consistent Human Motion Estimation
 
 <img style="max-width: 100%;" src="https://github.com/rizwanchouhan/pgmotion/blob/main/resources/wax.png" alt="pgmotion Overview">
 
