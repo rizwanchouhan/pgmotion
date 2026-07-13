@@ -95,17 +95,25 @@ pip install -r requirements.txt
 
 ---
 
----
+## Download SMPL and SMPL-X Models
 
-# Download [SMPL](https://smpl.is.tue.mpg.de/) and [SMPLX](https://smpl-x.is.tue.mpg.de/)
+Please register and download the body models from the official websites:
 
-inputs/smpl/
-├── body_models/smplx/
-│   └── SMPLX_{GENDER}.npz 
-└── body_models/smpl/
-    └── SMPL_{GENDER}.pkl
+- **SMPL:** https://smpl.is.tue.mpg.de/
+- **SMPL-X:** https://smpl-x.is.tue.mpg.de/
 
----
+After downloading, place the files in the following directory structure:
+
+```text
+inputs/
+└── body_models/
+    ├── smpl/
+    │   └── SMPL_{GENDER}.pkl
+    └── smplx/
+        └── SMPLX_{GENDER}.npz
+```
+
+where `{GENDER}` should be replaced with `MALE`, `FEMALE`, or `NEUTRAL`, depending on the model you downloaded.
 
 ---
 
