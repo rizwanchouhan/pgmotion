@@ -95,6 +95,8 @@ pip install -r requirements.txt
 
 ---
 
+---
+
 # Download [SMPL](https://smpl.is.tue.mpg.de/) and [SMPLX](https://smpl-x.is.tue.mpg.de/)
 
 inputs/smpl/
@@ -102,6 +104,10 @@ inputs/smpl/
 │   └── SMPLX_{GENDER}.npz 
 └── body_models/smpl/
     └── SMPL_{GENDER}.pkl
+
+---
+
+---
 
 # 📂 Datasets
 
