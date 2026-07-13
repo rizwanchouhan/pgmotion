@@ -95,6 +95,14 @@ pip install -r requirements.txt
 
 ---
 
+# Download [SMPL](https://smpl.is.tue.mpg.de/) and [SMPLX](https://smpl-x.is.tue.mpg.de/)
+
+inputs/smpl/
+├── body_models/smplx/
+│   └── SMPLX_{GENDER}.npz 
+└── body_models/smpl/
+    └── SMPL_{GENDER}.pkl
+
 # 📂 Datasets
 
 Our framework is evaluated on three challenging benchmark datasets.
