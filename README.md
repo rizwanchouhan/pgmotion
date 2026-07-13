@@ -4,9 +4,7 @@
 
 # 📌 Overview
 
-This repository contains the official implementation of Gravity-Aware World-Coordinate Human Motion Estimation via Perceptual-Gravity Reference Frames.
-
-Our method introduces a Perceptual-Gravity (PG) reference frame, a canonical coordinate system constructed from two observable cues in monocular videos: the gravity direction and the camera optical axis. Instead of directly estimating motion in camera or world coordinates, the proposed framework first predicts human motion in the PG frame and then recovers world-coordinate trajectories using inter-frame camera motion. This formulation significantly reduces rotational ambiguity and improves both pose and trajectory estimation.
+This repository contains the official implementation of Gravity-Aware World-Coordinate Human Motion Estimation via Perceptual-Gravity Reference Frames. The proposed method introduces a Perceptual-Gravity (PG) reference frame, a canonical coordinate system constructed from two observable cues in monocular videos: the gravity direction and the camera optical axis. Instead of directly estimating motion in camera or world coordinates, the proposed framework first predicts human motion in the PG frame and then recovers world-coordinate trajectories using inter-frame camera motion. This formulation significantly reduces rotational ambiguity and improves both pose and trajectory estimation.
 
 <img style="max-width: 100%;" src="https://github.com/rizwanchouhan/pgmotion/blob/main/resources/overview.jpg" alt="EMOPOI Overview">
 
@@ -118,69 +116,3 @@ RICH is a human-scene interaction dataset containing synchronized multi-view vid
 EMDB-1 is a benchmark for monocular human motion estimation containing diverse indoor and outdoor activities with accurate trajectory annotations. It evaluates both body pose estimation and global trajectory reconstruction.
 
 ---
-
-# 📊 Evaluation Metrics
-
-We report standard camera-space and world-coordinate evaluation metrics.
-
-### Camera-space Metrics
-
-- PA-MPJPE ↓
-- MPJPE ↓
-- PVE ↓
-
-### World-coordinate Metrics
-
-- Translation Error ↓
-- Orientation Error ↓
-- Trajectory Error ↓
-- MPJPE ↓
-
----
-
-# 🚀 Training
-
-```bash
-python train.py \
-    --config configs/train.yaml
-```
-
----
-
-# 🧪 Evaluation
-
-```bash
-python test.py \
-    --checkpoint checkpoints/model.pth
-```
-
----
-
-# 📈 Results
-
-Our method consistently outperforms existing trajectory-aware approaches by improving both local pose estimation and global trajectory reconstruction across multiple benchmark datasets.
-
----
-
-# 📖 Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@article{yourpaper2026,
-  title={Gravity-Aware World-Coordinate Human Motion Estimation via Perceptual-Gravity Reference Frames},
-  author={...},
-  journal={...},
-  year={2026}
-}
-```
-
----
-
-# 📧 Contact
-
-For questions or collaborations, please contact:
-
-Rizwan Abbas
-
-Email: your_email@sjtu.edu.cn
