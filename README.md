@@ -133,8 +133,8 @@ RICH is a human-scene interaction dataset containing synchronized multi-view vid
 
 ---
 
-## EMDB-1
+## EMDB
 
-EMDB-1 is a benchmark for monocular human motion estimation containing diverse indoor and outdoor activities with accurate trajectory annotations. It evaluates both body pose estimation and global trajectory reconstruction.
+EMDB is a benchmark for monocular human motion estimation containing diverse indoor and outdoor activities with accurate trajectory annotations. It evaluates both body pose estimation and global trajectory reconstruction.
 
 ---
